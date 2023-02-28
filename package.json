@@ -1,9 +1,12 @@
 {
+  "homepage": "https://Jkivadeveloper.github.io/naivasjimmy",
   "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
@@ -12,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "nodemon": "^2.0.20"
   },
   "dependencies": {

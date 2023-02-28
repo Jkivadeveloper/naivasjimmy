@@ -4,7 +4,7 @@ const orderRoutes = require('./router/orderRoutes');
 const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = 3002;
+const PORT ="https://Jkivadeveloper.github.io/naivasjimmy" ;
 
 app.use(bodyParser.json());
 app.use('/products', productRoutes);
